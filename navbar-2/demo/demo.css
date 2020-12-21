@@ -1,0 +1,86 @@
+
+/* ==========================================================================
+   DEMO.CSS
+   ========================================================================== */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f2f2f2;
+}
+
+.layout-center {
+  max-width: 1366px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  background: #292929;
+}
+
+/*
+ * menu
+ */
+
+
+.wrapmenu { }
+
+.wrapmenu ul {
+  margin: 0;
+  list-style: none;
+}
+
+.wrapmenu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.wrapmenu li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+margin-left: 15px;
+    transition: 0.2s all;
+}
+.wrapmenu li a:hover{
+    color: red;
+}
+#active{
+    background: red;
+    padding: 10px 15px;
+    transition: 0.2s all;
+}
+#active:hover{
+   background: #fff;
+}
+@media only screen and (max-width: 880px) {
+  .wrapmenu li a {
+  font-size: 1rem;
+  
+}
+} 
+@media only screen and (max-width: 781px) {
+  .wrapmenu li a {
+  font-size: 0.9rem;
+  
+}
+} 
+@media only screen and (max-width: 767px) {
+    #active{
+        background: none;
+        color: none;
+    }
+  
+}
+} 

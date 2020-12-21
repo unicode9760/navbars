@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>jQuery Adaptive Menu Plugin Demo</title>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="../dist/css/adaptive-menu.default.css">
+
+  <script src="https://code.jquery.com/jquery-3.0.0.slim.min.js"></script>
+  <script src="../dist/js/jquery.adaptive-menu.js"></script>
+
+  <script>
+    $(function () {
+      $('.wrapmenu').adaptiveMenu();
+    });
+  </script>
+
+</head>
+<body>
+  <main>
+    <header>
+      <div class="layout-center">
+        <div class="wrapmenu">
+          <nav>
+            <ul class="nav menu topmenu">
+              <li id="active"><a href="#">Home</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Recommended</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Social</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+   
+
+  </main>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
